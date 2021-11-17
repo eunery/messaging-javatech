@@ -12,6 +12,9 @@ import java.util.UUID;
 
 @SpringBootApplication
 public class MessagingRabbitmqApplication {
+	// into command line
+	// brew services stop rabbitmq
+	// brew services start rabbitmq
 
 	static final String fanoutExchangeName = "spring-boot-exchange";
 	// fanoutExchange возможность осуществления выборочной маршрутизации путем сравнения ключа маршрутизации
